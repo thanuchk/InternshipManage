@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Management - Work View</title>
+    <!-- MDB icon -->
+    <!-- <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Google Fonts Prompt -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+  
+  
+  <!----.CSS---->
+  <link rel="stylesheet" href="css main/mdbdashboard.min.css">
+  <link rel="stylesheet" href="css main/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="css main/daterangepicker.css">
+  <link rel="stylesheet" href="css main/datepicker.css">
+  <link rel="stylesheet" href="css main/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css main/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="css main/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="css main/jquery.timepicker.min.css">
+  <link rel="stylesheet" href="css main/daygridmain.css">
+  <link rel="stylesheet" href="css main/coremain.css">
+  <link rel="stylesheet" href="css main/timegridmain.css">
+</head>
+<body class="fixed-sn white-skin" style="font-family: 'Prompt', sans-serif;">
+  <div id="overlay" class="hide-overlay">
+    <div id="floatingBarsG">
+      <div class="blockG" id="rotateG_01"></div>
+      <div class="blockG" id="rotateG_02"></div>
+      <div class="blockG" id="rotateG_03"></div>
+      <div class="blockG" id="rotateG_04"></div>
+      <div class="blockG" id="rotateG_05"></div>
+      <div class="blockG" id="rotateG_06"></div>
+      <div class="blockG" id="rotateG_07"></div>
+      <div class="blockG" id="rotateG_08"></div>
+    </div>
+  </div>
+
+  <header>
+
+    <!-- Sidebar navigation -->
+    <div id="slide-out" class="side-nav sn-bg-4 fixed" style="transform: translateX(0px);">
+        <ul class="custom-scrollbar ps ps--theme_default" data-ps-id="43b72186-bdab-0cdd-686b-d9d64a3ea228">
+        <!-- Logo -->
+        <li class="logo-sn waves-effect">
+            <div class="text-center">
+              
+                <a href="#" class="pl-0"><img src="img/overlays/depth1st__logo.png" width="80px"></a>
+            </div>
+        </li>
+        <!--/. Logo -->
+
+        <!-- Side navigation links -->
+        <li>
+            <ul class="collapsible collapsible-accordion"> 
+            <!-- Simple link -->
+               
+               
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> จัดการผู้ใช้งาน<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/ums/user.do?random=1593346450317" class="waves-effect">ผู้ใช้งาน&nbsp;</a>
+                                  </li>
+                
+                <li><a href="/uat/ums/module.do?random=1593346450317" class="waves-effect">ระบบงาน</a>
+                                  </li>
+                <li><a href="/uat/ums/pageType.do?random=1593346450317" class="waves-effect">ประเภทหน้าจอ</a>
+                                  </li>
+                <li><a href="/uat/ums/page.do?random=1593346450317" class="waves-effect">หน้าจอ</a>
+                                  </li>
+                <li><a href="/uat/ums/role.do?random=1593346450317" class="waves-effect">กลุ่มผู้ใช้งาน</a>
+                                  </li>
+                
+                <li><a href="/uat/ums/userUsageLog.do?random=1593346450317" class="waves-effect">ประวัติการใช้งาน&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/ums/userSession.do?random=1593346450317" class="waves-effect">การใช้งานในขณะนี้</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> Knowledge&nbsp;Management<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/km/personalBlog.do?random=1593346450317" class="waves-effect">Personal&nbsp;Blog</a>
+                                  </li>
+                <li><a href="/uat/km/blog.do?random=1593346450317" class="waves-effect">Blog&nbsp;Admin</a>
+                                  </li>
+                <li><a href="/uat/km/download.do?random=1593346450317" class="waves-effect">Download</a>
+                                  </li>
+                <li><a href="/uat/km/news.do?random=1593346450317" class="waves-effect">จัดการข่าวสารและกิจกรรม</a>
+                                  </li>
+                
+                <li><a href="/uat/km/blogCategory.do?random=1593346450317" class="waves-effect">หมวดหมู่&nbsp;Blog</a>
+                                  </li>
+                <li><a href="/uat/km/newsCategory.do?random=1593346450317" class="waves-effect">หมวดหมู่ข่าวสารและกิจกรรม</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> CMMI<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/cmmi/reviewTask.do?random=1593346450317" class="waves-effect">Review&nbsp;Task&nbsp;(CA)</a>
+                                  </li>
+                <li><a href="/uat/cmmi/PPQAPlan.do?random=1593346450317" class="waves-effect">Plan&nbsp;Review</a>
+                                  </li>
+                
+                <li><a href="/uat/cmmi/PPQAProcess.do?random=1593346450317" class="waves-effect">Process&nbsp;Checklist</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ระบบฝ่ายขาย(ใหม่)<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/fns/CustomerProfile.do?random=1593346450317" class="waves-effect">ข้อมูลหน่วยงาน</a>
+                                  </li>
+                <li><a href="/uat/sfs/Stakeholder.do?random=1593346450317" class="waves-effect">ข้อมูลผู้ติดต่อ&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/sfs/Project.do?random=1593346450317" class="waves-effect">ข้อมูลโครงการ</a>
+                                  </li>
+                <li><a href="/uat/sfs/ProjectTor.do?random=1593346450317" class="waves-effect">จัดการข้อมูล&nbsp;TOR</a>
+                                  </li>
+                <li><a href="/uat/sfs/RiskManagement.do?random=1593346450317" class="waves-effect">ข้อมูลความเสี่ยง</a>
+                                  </li>
+                <li><a href="/uat/sfs/ProjectSaleStrategy.do?random=1593346450317" class="waves-effect">การจัดการข้อมูลเพื่อนำมาวิเคราะห์</a>
+                                  </li>
+                <li><a href="/uat/sfs/IssueManagement.do?random=1593346450317" class="waves-effect">จัดการข้อมูลปัญหา</a>
+                                  </li>
+                <li><a href="/uat/sfs/SalePlan.do?random=1593346450317" class="waves-effect">จัดการกิจกรรมเข้าพบลูกค้า</a>
+                                  </li>
+                <li><a href="/uat/sfs/SalePlanCalendar.do?random=1593346450317" class="waves-effect">ข้อมูลปฏิทินกิจกรรม</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> test<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uattest?random=1593346450317" class="waves-effect">test</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> Web&nbsp;Service<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/qms/queryProcess.do?random=1593346450317" class="waves-effect">บริการ</a>
+                                  </li>
+                <li><a href="/uat/qms/queryUser.do?random=1593346450317" class="waves-effect">ผู้ใช้บริการ</a>
+                                  </li>
+                
+                <li><a href="/uat/qms/queryConfig.do?random=1593346450317" class="waves-effect">การเชื่อมต่อ</a>
+                                  </li>
+                
+                <li><a href="/uat/qms/queryProcessTest.do?random=1593346450317" class="waves-effect">ทดสอบบริการ</a>
+                                  </li>
+                <li><a href="/uat/qms/queryUsageLog.do?random=1593346450317" class="waves-effect">การใช้บริการ</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ข้อมูลบุคคล<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/pis/person.do?random=1593346450317" class="waves-effect">ข้อมูลบุคคล</a>
+                                  </li>
+                
+                <li><a href="/uat/pis/position.do?random=1593346450317" class="waves-effect">ตำแหน่งพนักงาน</a>
+                                  </li>
+                <li><a href="/uat/pis/department.do?random=1593346450317" class="waves-effect">แผนก</a>
+                                  </li>
+                <li><a href="/uat/pis/positionLevel.do?random=1593346450317" class="waves-effect">ระดับตำแหน่ง</a>
+                                  </li>
+                <li><a href="/uat/pis/personType.do?random=1593346450317" class="waves-effect">ประเภทบุคคล</a>
+                                  </li>
+                <li><a href="/uat/pis/bloodType.do?random=1593346450317" class="waves-effect">หมู่โลหิต</a>
+                                  </li>
+                <li><a href="/uat/pis/nationalityType.do?random=1593346450317" class="waves-effect">เชื้อชาติ</a>
+                                  </li>
+                <li><a href="/uat/pis/raceType.do?random=1593346450317" class="waves-effect">สัญชาติ</a>
+                                  </li>
+                <li><a href="/uat/pis/religionType.do?random=1593346450317" class="waves-effect">ศาสนา</a>
+                                  </li>
+                <li><a href="/uat/pis/titleType.do?random=1593346450317" class="waves-effect">เพศ</a>
+                                  </li>
+                <li><a href="/uat/pis/job.do?random=1593346450317" class="waves-effect">อาชีพ&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/pis/married.do?random=1593346450317" class="waves-effect">สถานภาพสมรส</a>
+                                  </li>
+                <li><a href="/uat/pis/relationship.do?random=1593346450317" class="waves-effect">ความสัมพันธ์&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/pis/hire.do?random=1593346450317" class="waves-effect">สถานะ&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/pis/address.do?random=1593346450317" class="waves-effect">ที่อยู่</a>
+                                  </li>
+                <li><a href="/uat/pis/punishType.do?random=1593346450317" class="waves-effect">โทษที่ได้รับ</a>
+                                  </li>
+                <li><a href="/uat/pis/changedNameType.do?random=1593346450317" class="waves-effect">ประเภทการเปลี่ยนชื่อ-สกุล</a>
+                                  </li>
+                <li><a href="/uat/pis/relationshipRefType.do?random=1593346450317" class="waves-effect">ความสัมพันธ์บุคคลอ้างอิง</a>
+                                  </li>
+                <li><a href="/uat/pis/educationLevelType.do?random=1593346450317" class="waves-effect">ระดับการศึกษา</a>
+                                  </li>
+                <li><a href="/uat/pis/major.do?random=1593346450317" class="waves-effect">สาขาวิชาเอก</a>
+                                  </li>
+                <li><a href="/uat/pis/institute.do?random=1593346450317" class="waves-effect">สถานศึกษา&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/pis/certificate.do?random=1593346450317" class="waves-effect">วุฒิการศึกษา</a>
+                                  </li>
+                <li><a href="/uat/pis/movementType.do?random=1593346450317" class="waves-effect">ประเภทการเคลื่อนไหว</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ระบบการสร้างโครงการ(ฝ่ายขาย)<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/svs/customer.do?random=1593346450317" class="waves-effect">ลูกค้า</a>
+                                  </li>
+                <li><a href="/uat/svs/customerOther.do?random=1593346450317" class="waves-effect">ผู้ติดต่อ</a>
+                                  </li>
+                <li><a href="/uat/svs/project.do?random=1593346450317" class="waves-effect">โครงการ</a>
+                                  </li>
+                <li><a href="/uat/svs/reportPipeline.do?random=1593346450317" class="waves-effect">รายงาน</a>
+                                  </li>
+                
+                <li><a href="/uat/svs/projectType.do?random=1593346450317" class="waves-effect">ประเภทโครงการ</a>
+                                  </li>
+                <li><a href="/uat/svs/roleType.do?random=1593346450317" class="waves-effect">ประเภทหน้าที่</a>
+                                  </li>
+                <li><a href="/uat/svs/procurementType.do?random=1593346450317" class="waves-effect">ประเภทจัดซื้อจัดจ้าง</a>
+                                  </li>
+                <li><a href="/uat/svs/customerType.do?random=1593346450317" class="waves-effect">ประเภทลูกค้า</a>
+                                  </li>
+                <li><a href="/uat/svs/attiudeType.do?random=1593346450317" class="waves-effect">ประเภท&nbsp;Attitude</a>
+                                  </li>
+                <li><a href="/uat/svs/decisionType.do?random=1593346450317" class="waves-effect">ประเภท&nbsp;Decision&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/svs/saleAnalysisType.do?random=1593346450317" class="waves-effect">ประเภท&nbsp;Sale&nbsp;Analysis&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/svs/techSolutionType.do?random=1593346450317" class="waves-effect">ประเภท&nbsp;Technical&nbsp;Solution</a>
+                                  </li>
+                <li><a href="/uat/svs/projectStatusType.do?random=1593346450317" class="waves-effect">ประเภท&nbsp;Project&nbsp;status</a>
+                                  </li>
+                <li><a href="/uat/svs/projectPeriodType.do?random=1593346450317" class="waves-effect">ประเภท&nbsp;Period&nbsp;Type</a>
+                                  </li>
+                
+                <li><a href="/uat/svs/searchProject.do?random=1593346450317" class="waves-effect">ค้นหาโครงการ</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ระบบการจองห้องประชุม<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/tss/notify.do?random=1593346450317" class="waves-effect">Notify</a>
+                                  </li>
+                
+                <li><a href="/uat/rrs/reserveRoom.do?random=1593346450317" class="waves-effect">บันทึกการจองห้องประชุม</a>
+                                  </li>
+                <li><a href="/uat/rrs/approveRoom.do?random=1593346450317" class="waves-effect">อนุมัติการจองห้องประชุม</a>
+                                  </li>
+                <li><a href="/uat/rrs/meetingRoom.do?random=1593346450317" class="waves-effect">ห้องประชุม</a>
+                                  </li>
+                <li><a href="/uat/rrs/reserveRoomCalendar.do?random=1593346450317" class="waves-effect">ปฏิทินการจองห้องประชุม</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ระบบลงเวลาการทำงาน<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/tss/notify.do?random=1593346450317" class="waves-effect">แจ้งเตือนผ่าน&nbsp;Line&nbsp;Notify</a>
+                                  </li>
+                <li><a href="/uat/tss/timesheet.do?random=1593346450317" class="waves-effect">TimeSheet</a>
+                                  </li>
+                <li><a href="/uat/tss/timesheetConfirm.do?random=1593346450317" class="waves-effect">TimeSheet&nbsp;Confirm</a>
+                                  </li>
+                <li><a href="/uat/tss/timesheetCompare.do?random=1593346450317" class="waves-effect">เปรียบเทียบเวลาทำงาน</a>
+                                  </li>
+                <li><a href="/uat/tss/timesheetCompareHR.do?random=1593346450317" class="waves-effect">เปรียบเทียบเวลาทำงาน&nbsp;HR</a>
+                                  </li>
+                <li><a href="/uat/tss/summaryCalendar.do?random=1593346450317" class="waves-effect">Summary&nbsp;Calendar</a>
+                                  </li>
+                <li><a href="/uat/tss/Timesheet.do?random=1593346450317" class="waves-effect">เพิ่มข้อมูลโครงการ&nbsp;(Timesheet)&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/tss/workHistory.do?random=1593346450317" class="waves-effect">บันทึกเวลาการทำงาน&nbsp;(Timesheet)</a>
+                                  </li>
+                <li><a href="/uat/tss/timesheetReport.do?random=1593346450317" class="waves-effect">Export&nbsp;Timesheet&nbsp;Report</a>
+                                  </li>
+                
+                <li><a href="/uat/tss/onsite.do?random=1593346450317" class="waves-effect">บันทึก/ยกเลิกการปฏิบัติงานนอกสถานที่(On&nbsp;Site)&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/tss/approveOnsite.do?random=1593346450317" class="waves-effect">อนุมัติการปฏิบัติงานนอกสถานที่(On&nbsp;Site)&nbsp;&nbsp;</a>
+                                  </li>
+                <li><a href="/uat/tss/period.do?random=1593346450317" class="waves-effect">รอบการบันทึกTimeSheet</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ระบบการลา<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/lvs/leaveAnnounce.do?random=1593346450317" class="waves-effect">ใบแจ้งลา(แทน)</a>
+                                  </li>
+                <li><a href="/uat/lvs/leave.do?random=1593346450317" class="waves-effect">ขออนุมัติใบลา</a>
+                                  </li>
+                <li><a href="/uat/lvs/leaveApprove.do?random=1593346450317" class="waves-effect">อนุมัติใบลา</a>
+                                  </li>
+                <li><a href="/uat/lvs/leaveCancel.do?random=1593346450317" class="waves-effect">ขอยกเลิกใบลา(ที่อนุมัติแล้ว)</a>
+                                  </li>
+                <li><a href="/uat/lvs/leaveSummary.do?random=1593346450317" class="waves-effect">สรุปวันลา</a>
+                                  </li>
+                <li><a href="/uat/lvs/leaveSummaryHR.do?random=1593346450317" class="waves-effect">สรุปวันลา&nbsp;(HR)</a>
+                                  </li>
+                <li><a href="/uat/lvs/leaveSummaryReport.do?random=1593346450317" class="waves-effect">รายงานสรุปวันลา</a>
+                                  </li>
+                
+                <li><a href="/uat/lvs/leaveAnnual.do?random=1593346450317" class="waves-effect">Manual&nbsp;Annual&nbsp;Leave&nbsp;Update</a>
+                                  </li>
+                <li><a href="/uat/lvs/leaveType.do?random=1593346450317" class="waves-effect">ประเภทการลา</a>
+                                  </li>
+                <li><a href="/uat/lvs/holiday.do?random=1593346450317" class="waves-effect">วันหยุด</a>
+                                  </li>
+                <li><a href="/uat/lvs/approvePermission.do?random=1593346450317" class="waves-effect">ผู้อนุมัติ</a>
+                                  </li>
+                <li><a href="/uat/lvs/groupApproveType.do?random=1593346450317" class="waves-effect">กลุ่มผู้มีสิทธิ์อนุมัติ</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ระบบการเงิน(ใหม่)<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/fns/expenseReimbursement.do?random=1593346450317" class="waves-effect">เบิกค่าใช้จ่าย&nbsp;(Petty&nbsp;Cash)</a>
+                                  </li>
+                <li><a href="/uat/fns/fare.do?random=1593346450317" class="waves-effect">เบิกค่าใช้จ่ายการเดินทาง</a>
+                                  </li>
+                <li><a href="/uat/fns/approveExpense.do?random=1593346450317" class="waves-effect">อนุมัติการเบิกค่าใช้จ่าย</a>
+                                  </li>
+                <li><a href="/uat/fns/approveFare.do?random=1593346450317" class="waves-effect">อนุมัติการเบิกค่าใช้จ่ายการเดินทาง(ผู้บริหารโครงการ)</a>
+                                  </li>
+                
+                <li><a href="/uat/fns/pettyCashSetting.do?random=1593346450317" class="waves-effect">การตั้งค่า</a>
+                                  </li>
+                <li><a href="/uat/fns/masterCash.do?random=1593346450317" class="waves-effect">จัดการข้อมูลหลักประเภทค่าใช้จ่าย</a>
+                                  </li>
+                <li><a href="/uat/fns/addCash.do?random=1593346450317" class="waves-effect">เพิ่มเงินสดย่อย</a>
+                                  </li>
+                <li><a href="/uat/fns/pettyCash.do?random=1593346450317" class="waves-effect">ยืม&nbsp;-&nbsp;คืนเงินสดย่อย</a>
+                                  </li>
+                <li><a href="/uat/fns/PettyCashFinance.do?random=1593346450317" class="waves-effect">รายการเงินสดย่อย</a>
+                                  </li>
+                
+                <li><a href="/uat/fns/PettyCashTrackingAdvanceReport.do?random=1593346450317" class="waves-effect">รายงานการติดตามผลการเบิกเงินทดรองจ่าย&nbsp;(Advance&nbsp;Tracking&nbsp;Report)</a>
+                                  </li>
+                <li><a href="/uat/fns/PettyCashPendingAdvanceReport.do?random=1593346450317" class="waves-effect">รายงานการขอเบิกเงินทดรองจ่ายที่ยังไม่เคลียร์&nbsp;(Pending&nbsp;Advance&nbsp;Report)</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ระบบประเมิน<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/kpi/personGroup.do?random=1593346450317" class="waves-effect">กำหนดผู้ประเมินและแบบประเมิน</a>
+                                  </li>
+                <li><a href="/uat/kpi/evaluationEmployee.do?random=1593346450317" class="waves-effect">ประเมินผลสำหรับผู้ใช้งาน</a>
+                                  </li>
+                
+                <li><a href="/uat/kpi/score.do?random=1593346450317" class="waves-effect">หลักเกณฑ์คะแนนการประเมิน</a>
+                                  </li>
+                <li><a href="/uat/kpi/weight.do?random=1593346450317" class="waves-effect">หลักเกณฑ์การคิดคะเเนน&nbsp;และค่าน้ำหนักคะเเนน</a>
+                                  </li>
+                <li><a href="/uat/kpi/question.do?random=1593346450317" class="waves-effect">สร้างคำถามแบบประเมิน</a>
+                                  </li>
+                <li><a href="/uat/kpi/form.do?random=1593346450317" class="waves-effect">สร้างแบบประเมิน</a>
+                                  </li>
+                <li><a href="/uat/kpi/period.do?random=1593346450317" class="waves-effect">กำหนดช่วงการประเมิน</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> ระบบ&nbsp;Time&nbsp;Attendance<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/tas/attendUpload.do?random=1593346450317" class="waves-effect">นำเข้าข้อมูลเวลาเข้า-ออกงาน</a>
+                                  </li>
+                <li><a href="/uat/tas/attend.do?random=1593346450317" class="waves-effect">ข้อมูลเวลาเข้า-ออกงาน</a>
+                                  </li>
+                <li><a href="/uat/tas/attendHR.do?random=1593346450317" class="waves-effect">ข้อมูลเวลาเข้า-ออกงาน_HR</a>
+                                  </li>
+                
+                <li><a href="/uat/tas/attendLate.do?random=1593346450317" class="waves-effect">เวลาเริ่มทำงาน</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+            
+        
+        
+        <li><a class="collapsible-header waves-effect arrow-r">
+        <i class="fa fa-chevron-right"></i> เอกสาร<i class="fa fa-angle-down rotate-icon"></i></a>
+          <div class="collapsible-body">
+                              <ul>
+              
+                
+                <li><a href="/uat/doc/docRequest.do?random=1593346450317" class="waves-effect">ขอเอกสาร</a>
+                                  </li>
+                <li><a href="/uat/doc/adminDocRequest.do?random=1593346450317" class="waves-effect">ร้องขอเอกสาร</a>
+                                  </li>
+               </ul>
+                          </div>
+                      </li>
+
+    <li><a href="#" class="collapsible-header waves-effect"><i class="fa fa-pencil"></i> Version UAT</a></li> 
+    <li><a href="#" class="collapsible-header waves-effect"><i class="fa fa-clock"></i> <i> 20200625150009</i></a></li> 
+            </ul>
+        </li>
+        <!--/. Side navigation links -->
+        <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></ul>
+        <div class="sidenav-bg mask-strong"></div>
+    </div>
+    <!--/. Sidebar navigation -->
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar double-nav">
+        <!-- SideNav slide-out button -->
+        <div class="float-left">
+            <a href="#" data-activates="slide-out" class="button-collapse black-text"><i class="fa fa-bars"></i></a>
+        </div>
+        <!-- Breadcrumb-->
+        <div class="breadcrumb-dn mr-auto">
+            <p>DF PORTAL </p>
+        </div>
+
+
+<!-- Dropdown -->
+            
+
+        <!--Navbar links-->
+        <ul class="nav navbar-nav nav-flex-icons ml-auto">
+          <li class="nav-item"> 
+                <a class="nav-link waves-effect" href="/uat/home.do?cmd=kmCalendar&amp;ms=1584015421789">
+                  <i class="fas fa-calendar"></i> 
+                  <span class="clearfix d-none d-sm-inline-block">ปฏิทิน</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect" href="/uat/kmNews.do">
+                  <i class="fas fa-newspaper"></i> 
+                  <span class="clearfix d-none d-sm-inline-block">ข่าวสารและกิจกรรม</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect" href="/uat/kmblog.do">
+                  <i class="fas fa-book"></i> 
+                  <span class="clearfix d-none d-sm-inline-block">Blog</span></a>
+            </li>
+    
+            <li class="nav-item dropdown">
+              <a class="pt-1 nav-link dropdown-toggle waves-effect" href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="https://ui-avatars.com/api/?background=0D8ABC&amp;color=fff&amp;size=30&amp;name=test" class="rounded-circle z-depth-1" alt="First sample avatar image">  
+              <span class="clearfix d-none d-sm-inline-block">มินนี่ เองจ้า</span></a>
+              
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+              <a class="dropdown-item waves-effect waves-light" href="#"><i class="far fa-address-card"></i> My Profile</a>
+                  <a class="dropdown-item waves-effect waves-light" href="/uat/password.jsp">Change Password</a>
+                  <a class="dropdown-item waves-effect waves-light" href="javascript:doLogout();"><i class="fa fa-sign-out"></i>Log Out</a>
+                  
+              </div>
+          </li>
+
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+    <div class="container-fluid">
+           <ol class="breadcrumb bg-white">
+             <li class="breadcrumb-item"><a href="#!" class="badge badge-pill indigo mt-1">IT002</a></li>
+               <li class="breadcrumb-item ">ระบบข้อมูลนักศึกษาฝึกงาน</li>
+               <li class="breadcrumb-item ">การจัดการงานนักศึกษาฝึกงาน</li>
+           </ol>
+           <br>
+
+     <form name="WKM001" method="post" action="/uat/km/personalBlog.do" onsubmit="_submit_NestedForm(this)">
+       <input type="hidden" name="cmd" value="">
+       <input type="hidden" name="id" value="">
+       
+       <!---upcard---->
+       <div class="card card-cascade narrower" style="border: 5px solid #F9A925;">
+         <div class="row">
+           <div class="col-md-5">
+             <div class="view view-cascade gradient-card-header" style="background: linear-gradient(270deg, #F9A825 0%, #FBC02D 52.08%, #FDD835 100%);">
+               <h6 class="h6-responsive mb-0">ดูรายละเอียดของงานที่ได้รับมอบหมาย</h6>
+             </div>
+           </div>
+         </div>
+         <div class="card-body card-body-cascade mt-5 pb-5 mx-0 px-0" >
+
+            <!--row1-->
+             <div class="row form-group mb-5 align-items-md-center">
+                 <div class="col-md-2 text-right px-0">
+                     <a>ชื่องาน :</a>
+                 </div>
+                 <div class="col-md-4">
+                     <a>อาจารย์จากมหาวิทยาลัยมาปฐมนิเทศ</a>
+                 </div>
+                 <div class="col-md-2 text-right px-0">
+                     <a>ประเภทงาน :</a>
+                 </div>
+                 <div class="col-md-4">
+                     <a>งานจากมหาวิทยาลัย</a>
+                 </div>
+             </div>
+
+             <!--row2-->
+             <div class="row form-group mb-5 ">
+                <div class="col-md-2 text-right px-0">
+                    <a>รายละเอียดงาน :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>อาจารย์มาปฐมนิเทศเกี่ยวกับรายละเอียดในการฝึกงานของนักศึกษา รวมถึงกฎและการปฏิบัติต่างๆ</a>
+                </div>
+                <div class="col-md-2 text-right px-0">
+                    <a>สถานะการทำงาน :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>Done</a>
+                </div>
+            </div>
+
+            <!--row3-->
+            <div class="row form-group mb-5 align-items-md-center">
+                <div class="col-md-2 text-right px-0">
+                    <a>วันที่เริ่ม :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>2563-06-23</a>
+                </div>
+                <div class="col-md-2 text-right px-0">
+                    <a>เวลาเริ่ม :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>09:30</a>
+                </div>
+            </div>
+            
+            <!--row4-->
+            <div class="row form-group mb-5 align-items-md-center">
+                <div class="col-md-2 text-right px-0">
+                    <a>วันที่สิ้นสุด :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>2563-06-24</a>
+                </div>
+                <div class="col-md-2 text-right px-0">
+                    <a>เวลาสิ้นสุด :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>18:00</a>
+                </div>
+            </div>
+
+            <!--row5-->
+            <div class="row form-group mb-5 align-items-md-center">
+                <div class="col-md-2 text-right px-0">
+                    <a>ชั้วโมงการทำงาน :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>8 ชม.</a>
+                </div>
+                <div class="col-md-2 text-right px-0">
+                    <a>ระยะเวลาการทำงาน :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>8 ชม.</a>
+                </div>
+            </div>
+
+            <!--row6-->
+            <div class="row form-group mb-5 align-items-md-center">
+                <div class="col-md-2 text-right px-0">
+                    <a>ผู้รับผิดชอบงาน :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>-------------------------</a>
+                </div>
+                <div class="col-md-2 text-right px-0">
+                    <a>ผู้มอบหมายงาน :</a>
+                </div>
+                <div class="col-md-4">
+                    <a>-------------------------</a>
+                </div>
+            </div>
+
+
+
+
+         </div><!--/card body-->
+         
+         </div>
+         <!----/upcard---->
+
+     </form>
+
+
+   <!----buttons---->
+ <div class="row justify-content-center mt-4 ">
+  <a href="manage main.html">
+  <button class="btn btn-md btn-white rounded-lg mr-4" type="button">
+    <i class="fa fa-caret-left pr-2" aria-hidden="true"></i>
+    กลับไป
+  </button>
+  </a>
+  <a href="manage work edit.html">
+  <button class="btn btn-md  rounded-lg ml-4" type="button" 
+  style=" background: #FBC02D;" data-toggle="modal" data-target="#completed">&nbsp;&nbsp;&nbsp;แก้ไข&nbsp;&nbsp;&nbsp;</button></a>
+</div>
+<!---/buttons---->
+
+    </div><!---/container-fluid---->
+
+   </main>
+
+   <footer class="page-footer text-center font-small primary-color-dark darken-2 mt-4 wow fadeIn">
+    
+    <!--Copyright-->
+    <div class="footer-copyright py-3" >
+        <a href="#" target="_blank"> Depth First Co., Ltd. </a>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+
+    <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+</body>
+</html>
